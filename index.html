@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        Weather App
+    </nav>
+    <div class="container">
+
+        <!-- FORM -->
+        <form>
+            <h1>Your Weather Report</h1>
+            <input type="text" placeholder="Enter Your Location" required autocomplete="on">
+            <button type="submit">Get Report</button>
+        </form>
+
+        <!-- WEATHER REPORT -->
+        <div class="weather-report">
+
+            <!-- TEMPERATURE SECTION -->
+            <div class="temperature">
+                <div class="temp-c">
+                    <h1 class="temp_c"></h1>
+                </div>
+                <img src="./temp-icon.png" alt="">
+                <div class="temp-f">
+                    <h2 class="temp_f"></h2>
+                </div>
+            </div>
+
+            <!-- OTHER DETAILS -->
+            <div class="wind">
+                <h3 class="wind_speed"></h3>
+                <h4 class="location"></h4>
+            </div>
+
+            <div class="day-night-icon">
+                <img src="" alt="" class="icon">
+                <h4 class="weather_condition"></h4>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
