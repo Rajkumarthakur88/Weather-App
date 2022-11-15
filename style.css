@@ -24,7 +24,7 @@ nav {
     color: white;
     font-size: 35px;
     font-weight: 600;
-    position: fixed;
+
 }
 
 /* FORM */
@@ -141,11 +141,9 @@ form button:active {
     background-size: 100% 100%;
 
 }
-
-
     /* FORM */
     form {
-        margin-top: 200px;
+        margin-top: 30px;
         width: 95%;
     }
 
