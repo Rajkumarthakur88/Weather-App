@@ -137,14 +137,21 @@ form button:active {
 /* CONTAINER */
 .container {
     width: 100%;
-    height: 130vh;
+    height: 110vh;
     background-size: 100% 100%;
+justify-content: flex-start;
 
+}
+nav{
+    height: 8%;
+    border: 2px solid red;
 }
     /* FORM */
     form {
         margin-top: 30px;
         width: 95%;
+        height: 30%;
+        border: 2px solid red;
     }
 
     form h1 {
@@ -165,6 +172,9 @@ form button:active {
     /* WEATHER REPORT */
     .weather-report {
         width: 95%;
+        height: 30%;
+        border: 2px solid red;
+        margin-top: 0px;
     }
 
     .temperature {
